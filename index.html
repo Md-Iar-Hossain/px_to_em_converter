@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PX To EM Converter App</title>
+    <link rel="stylesheet" href="pxToEmConverterApp.css">
+</head>
+<body>
+    <main>
+      <h2>Px to em Converter</h2>
+      <div class="converter_wrapper">
+        <label for="default">Set a defaul font size in px</label>
+        <input type="number" id="default" value="16">
+        <label for="user_input">Enter your font size</label>
+        <div class="row">
+            <input type="number" id="user_input">
+            <select>
+                <option value="Select_Unit">Select unit</option>
+                <option value="px_to_em">Px to Em</option>
+                <option value="em_to_px">Em to Px</option>
+            </select>
+        </div>
+        <div class="result">
+            <p></p>
+            <button type="button" class="copy_btn">Copy</button>
+        </div>
+        <input type="submit" value="Convert">
+      </div>
+   </main> 
+   <script src="pxToEmConverterApp.js"></script>
+</body>
+</html>
