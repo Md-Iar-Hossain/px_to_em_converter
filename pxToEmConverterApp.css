@@ -108,7 +108,7 @@ select * {
     color: #4d4d4d;
 }
 input[type="submit"] {
-    padding: 5px 20px;
+    padding: 10px 20px;
     cursor: pointer;
     color: #444444;
     text-transform: uppercase;
